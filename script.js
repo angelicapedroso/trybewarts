@@ -1,4 +1,4 @@
-//requisito feito com ajuda do Victor Faria (monitor)
+// requisito feito com ajuda do Victor Faria (monitor)
 const entrarButton = document.getElementById('theLogin');
 const usuario = 'tryber@teste.com';
 const senha = '123456';
