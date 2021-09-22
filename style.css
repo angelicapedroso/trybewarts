@@ -17,4 +17,11 @@
 
 main {
   display: flex;
+  flex-wrap: wrap;
+}
+
+.logoLadoDireito {
+  height: 500px;
+  display: flex;
+  margin-left: 70%;
 }
