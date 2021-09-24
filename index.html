@@ -85,12 +85,13 @@
 
     <img src="/images/trybewarts-colored.svg" alt="logodaTrybe" id="trybewarts-forms-logo" class="logoLadoDireito">
     <div>
+      <span id="counter">500</span>
       <label class="textarea" for="areaDeTexto"> Deixe seu comentário:</label>
-      <textarea name="areaDeTexto" id="" cols="30" rows="10" class="" maxlength='500'></textarea>
+      <textarea onkeyup="limitetextArea(this.value)" name="areaDeTexto" id="textarea" cols="30" rows="10" class="" maxlength='500'></textarea>
 
       <div>
-        <label for="agreemente" id="label-infos">Você concorda com o uso das informações acima?</label>
-        <input type="checkbox" name="agreementx" id="agreement">
+        <label for="agreement" id="label-infos">Você concorda com o uso das informações acima?</label>
+        <input type="checkbox" name="agreement" id="agreement">
       </div>
 
       <button type="submit" id="submit-btn" disabled>Enviar</button>
@@ -98,7 +99,7 @@
   </main>
   <script type="text/javascript" src="script.js"></script>
   <footer>Direitos reservados à Trybewarts©</footer>
-  
+
 </body>
 
 </html>
