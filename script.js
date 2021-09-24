@@ -29,3 +29,15 @@ function limitetextArea(valor) { // a função com o mesmo nome em "onkeyup" no 
   }
 }
 limitetextArea('');
+
+const submit = document.getElementById('submit-btn');
+const checkbox = document.getElementById('agreement');
+
+function changeButton() {
+  if (checkbox.checked) {
+    submit.disabled = false;
+  } else {
+    submit.disabled = true;
+  }
+}
+checkbox.addEventListener('click', changeButton);
