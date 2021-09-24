@@ -14,7 +14,6 @@ function checkData() {
 }
 entrarButton.addEventListener('click', checkData);
 
-
 const submit = document.getElementById('submit-btn');
 const checkbox = document.getElementById('agreement');
 
