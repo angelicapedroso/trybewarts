@@ -41,4 +41,3 @@ function changeButton() {
   }
 }
 checkbox.addEventListener('click', changeButton);
-
